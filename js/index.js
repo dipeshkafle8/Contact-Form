@@ -7,7 +7,7 @@ console.log(window.location);
 
 //for sending mail
 mailus.addEventListener('click',()=>{
-    window.location.href="mailto:dipeshkaflen2060@gmail.com?body"+message.value;
+    window.location.href="mailto:dipeshkaflen2060@gmail.com?body="+message.value;
 })
 
 //for chatting in whatsapp
